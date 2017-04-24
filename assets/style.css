@@ -1,0 +1,48 @@
+/*nav styles*/
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav {
+  background: white;
+  width: 100%;
+  border-bottom: 2px solid grey;
+  /*position changed the vertical alignment of the brandlogo*/
+  position: fixed;
+}
+
+.brandlogo {
+  display: inline-block;
+  background-color: #4FA9A4;
+  color: #FFF;
+  padding: 0px 35px;
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'georgia', Times, Times New Roman, serif;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #F3F3F3;
+  color: #666666;
+}
+
+nav li:last-child a {
+  border-right: none;
+}
