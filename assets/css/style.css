@@ -5,6 +5,12 @@ body {
     background: url('../images/old_moon.png')
 }
 
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #666666;
+}
+
 .container {
   width: 75%;
   margin: 0 auto;
@@ -28,7 +34,7 @@ nav {
   background-color: #666666;
   color: #FFF;
   padding: 20px 35px;
-  font-size: 1.25em;
+  font-size: 1.50em;
   text-align: center;
   text-decoration: none;
 }
@@ -59,4 +65,28 @@ nav li:last-child a {
 
 .main {
   margin-top: 90px;
+}
+
+.bigbox {
+  background: #fff;
+  width: 50%;
+  padding: 30px;
+  display: inline-block;
+}
+
+.bigbox h1 {
+  font-size: 1.50em;
+  color: #666666;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #666666;
+}
+
+.bigbox p {
+  padding-top: 20px;
+}
+
+.bigbox p img {
+  max-width: 40%;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
