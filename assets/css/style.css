@@ -1,5 +1,10 @@
 /*nav styles*/
 
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: url('../images/old_moon.png')
+}
+
 .container {
   width: 75%;
   margin: 0 auto;
@@ -11,23 +16,28 @@ nav {
   border-bottom: 2px solid grey;
   /*position changed the vertical alignment of the brandlogo*/
   position: fixed;
+  top: 0;
 }
 
 .brandlogo {
   display: inline-block;
-  background-color: #4FA9A4;
+}
+
+.brandlogo a {
+  display: inline-block;
+  background-color: #666666;
   color: #FFF;
-  padding: 0px 35px;
+  padding: 20px 35px;
   font-size: 1.25em;
   text-align: center;
-  font-weight: bold;
-  font-family: 'georgia', Times, Times New Roman, serif;
+  text-decoration: none;
 }
 
 nav ul {
   list-style-type: none;
   overflow: hidden;
   float: right;
+  margin-top: 8px;
 }
 
 nav li {
@@ -45,4 +55,8 @@ nav li a {
 
 nav li:last-child a {
   border-right: none;
+}
+
+.main {
+  margin-top: 90px;
 }
