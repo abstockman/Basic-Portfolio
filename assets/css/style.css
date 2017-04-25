@@ -65,6 +65,7 @@ nav li:last-child a {
 
 .main {
   margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .bigbox {
@@ -72,6 +73,7 @@ nav li:last-child a {
   width: 60%;
   padding: 30px;
   float: left;
+  margin-bottom: 90px;
 }
 
 .bigbox h1 {
@@ -108,4 +110,23 @@ nav li:last-child a {
 .icons img {
   max-width: 60px;
   padding-top: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: #666666;
+  width: 100%;
+  padding: 20px;
+  border-top: 4px solid #fff;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+nav ul a:hover {
+  color: #007AB9;
 }
