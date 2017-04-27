@@ -91,6 +91,7 @@ nav li:last-child a {
   max-width: 30%;
   padding-right: 20px;
   padding-bottom: 20px;
+  float: left;
 }
 
 .connectbox {
@@ -129,4 +130,16 @@ footer p {
 
 nav ul a:hover {
   color: #007AB9;
+}
+
+.portfolio-img-left img {
+  max-width: 30%;
+  padding: 20px 20px 20px 0px;
+  float: left;
+}
+
+.portfolio-img-right img {
+  max-width: 30%;
+  padding: 20px 20px 20px 0px;
+  float: right;
 }
