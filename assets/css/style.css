@@ -1,5 +1,7 @@
 /*nav styles*/
 
+/*Main*/
+
 body {
     font-family: 'Raleway', sans-serif;
     background: url('../images/old_moon.png')
@@ -15,6 +17,7 @@ p {
   width: 75%;
   margin: 0 auto;
 }
+ /*NAV*/
 
 nav {
   background: white;
@@ -63,6 +66,8 @@ nav li:last-child a {
   border-right: none;
 }
 
+/*MAIN ABOUT PAGE*/
+
 .main {
   margin-top: 90px;
   margin-bottom: 90px;
@@ -94,6 +99,35 @@ nav li:last-child a {
   float: left;
 }
 
+/*PORTFOLIO*/
+
+.portfolio-row ul {
+  float: left;
+  padding: 0px 100px 20px 0px;
+}
+
+.portfolio-row ul li {
+  padding-top: 20px;
+}
+
+.portfolio-row ul li a {
+  text-decoration: none;
+}
+
+.portfolio-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.portfolio-image-text {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+/*CONNECTBOX*/
+
 .connectbox {
     background: #fff;
     width: 20%;
@@ -113,6 +147,8 @@ nav li:last-child a {
   padding-top: 20px;
 }
 
+/*FOOTER*/
+
 footer {
   position: fixed;
   bottom: 0;
@@ -130,16 +166,4 @@ footer p {
 
 nav ul a:hover {
   color: #007AB9;
-}
-
-.portfolio-img-left img {
-  max-width: 30%;
-  padding: 20px 20px 20px 0px;
-  float: left;
-}
-
-.portfolio-img-right img {
-  max-width: 30%;
-  padding: 20px 20px 20px 0px;
-  float: right;
 }
