@@ -28,6 +28,13 @@ nav {
   top: 0;
 }
 
+nav img {
+  max-height: 50px;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .brandlogo {
   display: inline-block;
 }
@@ -102,6 +109,7 @@ nav li:last-child a {
 /*PORTFOLIO*/
 
 .portfolio-row ul {
+  margin: 0;
   float: left;
   padding: 0px 100px 20px 0px;
 }
