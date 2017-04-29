@@ -1,10 +1,16 @@
-/*nav styles*/
+
 
 /*Main*/
+html {
+  position: relative;
+  min-height: 100%;
+
+}
 
 body {
     font-family: 'Raleway', sans-serif;
     background: url('../images/old_moon.png')
+
 }
 
 p {
@@ -22,10 +28,11 @@ p {
 nav {
   background: white;
   width: 100%;
-  border-bottom: 2px solid #666666;
+  border-bottom: 4px solid #666666;
   /*position changed the vertical alignment of the brandlogo*/
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 nav img {
@@ -108,31 +115,65 @@ nav li:last-child a {
 
 /*PORTFOLIO*/
 
-.portfolio-row ul {
-  margin: 0;
-  float: left;
-  padding: 0px 100px 20px 0px;
-}
-
-.portfolio-row ul li {
-  padding-top: 20px;
-}
-
-.portfolio-row ul li a {
-  text-decoration: none;
-}
-
 .portfolio-image {
-  max-width: 200px;
-  max-height: 200px;
+  width: 45%;
+  background: yellow;
+  height: 200px;
+  position: relative;
+  margin-top: 30px;
 }
 
-.portfolio-image-text {
-  background-color: #666;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
+.portfolio-image p {
+    background: rgba(102, 102, 102, .9);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0px;
+    color: #fff;
+  }
+
+#orlando {
+  float: left;
+  background: url(../images/orlandox3.jpg) center center no-repeat;
+  background-size: cover;
 }
+
+#greenday {
+  float: left;
+  background: url(../images/greendaycafe.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#hoot {
+  float: left;
+  background: url(../images/hoot.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#brightidea {
+  float: right;
+  background: url(../images/brightidea.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#boldsoul {
+  float: right;
+  background: url(../images/boldsoul.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#randomlogo {
+  float: right;
+  background: url(../images/96project.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.row2, .row3 {
+  clear: both;
+}
+
+
 
 /*CONNECTBOX*/
 
@@ -155,15 +196,53 @@ nav li:last-child a {
   padding-top: 20px;
 }
 
+/*CONTACT*/
+
+label {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 8px;
+}
+
+input {
+  display: block;
+  font-size: 1.25em;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #666;
+
+}
+
+textarea {
+  display: block;
+  padding: 5px;
+  font-size: 1.25em;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 200px;
+  border: 1px solid #666;
+}
+
+input.submit {
+  background: #666;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 1.25em;
+  width: 25%;
+}
+
 /*FOOTER*/
 
 footer {
-  position: fixed;
-  bottom: 0;
   background: #666666;
   width: 100%;
   padding: 20px;
   border-top: 4px solid #fff;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 footer p {
